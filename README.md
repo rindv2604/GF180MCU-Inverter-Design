@@ -24,3 +24,4 @@ The design is fully verified and clean.
 
 ## 4. Post-Layout Simulation (PEX)
 Parasitic capacitances have been successfully extracted (`inverter_pex.spice`) and simulated to observe propagation delay.
+<img width="687" height="423" alt="pre_layout_simualtion" src="https://github.com/user-attachments/assets/19bb4373-0778-4e0e-8c6d-e4b62a017978" />
