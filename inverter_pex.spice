@@ -1,0 +1,22 @@
+*********************************************************
+*** NGSPICE file created by KLayout-PEX 0.3.12
+*** -----------------------------------------------------
+***     Extraction Engine: KPEX/2.5D
+***     Technology: gf180mcud
+***     Date: 2026-06-17 09:11:46
+*********************************************************
+
+.SUBCKT inverter VDD A Y VSS 
+X$1 Y A VDD VDD pfet_03v3 L=0.28U W=0.22U AS=0.1516P AD=0.1516P PS=1.64U
++ PD=1.64U
+X$2 Y A VSS VSS nfet_03v3 L=0.28U W=0.44U AS=0.1936P AD=0.1936P
++ PS=1.76U PD=1.76U
+Cext_1 A VSUBS 79.7489a
+Cext_2 A Y 9.34749a
+Cext_3 VDD VSS 45.3405a
+Cext_4 VDD VSUBS 110.041a
+Cext_5 VDD Y 55.3962a
+Cext_6 VSS VSUBS 109.135a
+Cext_7 VSS Y 63.374a
+Cext_8 VSUBS Y 185.411a
+.ENDS inverter

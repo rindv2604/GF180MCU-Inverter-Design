@@ -1,0 +1,15 @@
+* Extracted by KLayout with GF180MCU LVS runset on : 24/06/2026 16:04
+
+* cell inverter
+* pin A
+* pin VDD
+* pin Y
+* pin VSS
+.SUBCKT inverter A VDD Y VSS
+* device instance $1 r0 *1 0.315,1.435 pfet_03v3
+M$1 Y A VDD VDD pfet_03v3 L=0.28U W=0.22U AS=0.1516P AD=0.1516P PS=1.64U
++ PD=1.64U
+* device instance $2 r0 *1 0.315,-0.185 nfet_03v3
+M$2 Y A VSS VSS nfet_03v3 L=0.28U W=0.44U AS=0.1936P AD=0.1936P PS=1.76U
++ PD=1.76U
+.ENDS inverter

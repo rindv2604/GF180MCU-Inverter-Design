@@ -1,0 +1,13 @@
+* ==========================================
+* CLEAN CDL NETLIST FOR KLAYOUT LVS
+* Circuit: CMOS Inverter
+* Technology: GLOBALFOUNDRIES 0.18um (gf180mcu)
+* ==========================================
+
+.subckt inverter VDD A Y VSS
+*.PININFO A:I VSS:B VDD:B Y:O
+M1 Y A VDD VDD pfet_03v3 L=0.28u W=0.22u nf=1
+M2 Y A VSS VSS nfet_03v3 L=0.28u W=0.44u nf=1
+.ends
+
+.end
